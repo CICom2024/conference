@@ -33,6 +33,18 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
         Home
       </NavLink>
       <NavLink
+        to={"/about"}
+        className={({isActive, isPending}) =>
+          isPending
+            ? "pending"
+            : isActive
+            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
+            : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
+        }
+      >
+        For Authors
+      </NavLink>
+      <NavLink
         to={"/services"}
         className={({isActive, isPending}) =>
           isPending
@@ -42,7 +54,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
-        Services
+        Committee
       </NavLink>
       {user && (
         <NavLink
@@ -73,18 +85,6 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
         </NavLink>
       )}
       <NavLink
-        to={"/about"}
-        className={({isActive, isPending}) =>
-          isPending
-            ? "pending"
-            : isActive
-            ? "active  lg:border-b-2 font-semibold px-2 py-1 lg:border-blue-500 text-blue-500"
-            : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
-        }
-      >
-        About
-      </NavLink>
-      <NavLink
         to={"/contact"}
         className={({isActive, isPending}) =>
           isPending
@@ -94,7 +94,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             : "font-semibold px-2 py-1 border-transparent hover:border-blue-500 hover:text-blue-500 border-b-2"
         }
       >
-        Contact
+        Visa Information
       </NavLink>
     </>
   );
@@ -120,7 +120,7 @@ const NavbarSecond = ({buttonText, buttonLink}) => {
             to={"/"}
             className="text-2xl md:text-3xl lg:text-4xl font-bold text-white"
           >
-            MELODYFEST
+            CICom 2024
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
