@@ -8,7 +8,7 @@ const VisaInformation = () => {
     <section>
       <Helmet>
         <link rel="shortcut icon" href="/icon/visa.svg" type="image/x-icon" />
-        <title>Visa Information - MelodyFest</title>
+        <title>Visa Information</title>
       </Helmet>
       <NavbarSecond buttonText={"Submit Paper"} buttonLink={"/login"} />
 
