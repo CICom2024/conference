@@ -10,9 +10,9 @@ const Footer = () => {
               to={"/"}
               className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-500"
             >
-              MELODYFEST
+              CICom
             </Link>
-            <p>Your Gateway to Musical Experiences</p>
+            <p>2024</p>
             <div className="flex justify-between items-center gap-4 text-4xl mt-3 ">
               <FaFacebook className="hover:text-blue-500" />
               <FaLinkedin className="hover:text-blue-500" />
@@ -21,24 +21,11 @@ const Footer = () => {
             </div>
           </aside>
           <nav>
-            <header className="footer-title">Services</header>
-            <a className="hover:text-blue-500 cursor-pointer">Branding</a>
-            <a className="hover:text-blue-500 cursor-pointer">Design</a>
-            <a className="hover:text-blue-500 cursor-pointer">Marketing</a>
-            <a className="hover:text-blue-500 cursor-pointer">Advertisement</a>
-          </nav>
-          <nav>
-            <header className="footer-title">Company</header>
-            <a className="hover:text-blue-500 cursor-pointer">About us</a>
-            <a className="hover:text-blue-500 cursor-pointer">Contact</a>
-            <a className="hover:text-blue-500 cursor-pointer">Jobs</a>
-            <a className="hover:text-blue-500 cursor-pointer">Press kit</a>
-          </nav>
-          <nav>
-            <header className="footer-title">Legal</header>
-            <a className="hover:text-blue-500 cursor-pointer">Terms of use</a>
-            <a className="hover:text-blue-500 cursor-pointer">Privacy policy</a>
-            <a className="hover:text-blue-500 cursor-pointer">Cookie policy</a>
+            <header className="footer-title">Previous CICom Editions</header>
+            <a href="https://cicom-conference.eai-conferences.org/2023/" className="hover:text-blue-500 cursor-pointer">CICom 2023</a>
+            <a href="https://cicom-conference.eai-conferences.org/2022/" className="hover:text-blue-500 cursor-pointer">CICom 2022</a>
+            <a href="https://cicom-conference.eai-conferences.org/2021/" className="hover:text-blue-500 cursor-pointer">CICom 2021</a>
+            <a href="https://cicom-conference.eai-conferences.org/2020/" className="hover:text-blue-500 cursor-pointer">CICom 2020</a>
           </nav>
           <form onSubmit={(e) => e.preventDefault()}>
             <header className="footer-title">Newsletter</header>
@@ -52,7 +39,7 @@ const Footer = () => {
                   className="input focus:outline-none input-bordered w-full pr-16 rounded-2xl"
                 />
                 <button className="btn bg-blue-500 border-none text-black font-bold hover:bg-blue-600 hover:text-white absolute top-0 right-0 rounded-2xl rounded-l-none">
-                  Subscribe
+                  Subscribe (Coming Soon!)
                 </button>
               </div>
             </fieldset>
@@ -63,10 +50,10 @@ const Footer = () => {
             <p>
               Design &amp; Developed by{" "}
               <Link
-                to={"https://github.com/thecodermehedi"}
+                to={"https://www.lisv.uvsq.fr/"}
                 className="font-bold hover:text-red-500 text-blue-500 hover:underline custom-cursor"
               >
-                TheCoderMehedi
+                LISV Laboratory
               </Link>
             </p>
           </aside>
@@ -78,9 +65,9 @@ const Footer = () => {
             to={"/"}
             className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-500"
           >
-            MELODYFEST
+            CICom 2024
           </Link>
-          <p>Your Gateway to Musical Experiences</p>
+          <p>International Conference on Computational Intelligence and Communications</p>
         </aside>
         <nav>
           <div className="grid grid-flow-col gap-4 text-4xl">
@@ -93,10 +80,10 @@ const Footer = () => {
         <p>
           Design &amp; Developed by{" "}
           <Link
-            to={"https://github.com/thecodermehedi"}
+            to={"https://www.lisv.uvsq.fr/"}
             className="font-bold hover:text-red-500 text-blue-500 custom-cursor"
           >
-            TheCoderMehedi
+            LISV Laboratory
           </Link>
         </p>
       </footer>
