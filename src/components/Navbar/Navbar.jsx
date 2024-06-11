@@ -32,10 +32,16 @@ const Navbar = () => {
         Home
       </NavLink>
       <NavLink
+        to={"/about"}
+        className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
+      >
+        For Authors
+      </NavLink>
+      <NavLink
         to={"/services"}
         className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
       >
-        Services
+        Commitee
       </NavLink>
       {user && (
         <NavLink
@@ -54,16 +60,10 @@ const Navbar = () => {
         </NavLink>
       )}
       <NavLink
-        to={"/about"}
-        className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
-      >
-        About
-      </NavLink>
-      <NavLink
         to={"/contact"}
         className="font-semibold px-2 py-1 border-transparent hover:border-white border-b-2"
       >
-        Contact
+        Visa Information
       </NavLink>{" "}
     </>
   );
@@ -89,7 +89,7 @@ const Navbar = () => {
             to={"/"}
             className="text-2xl md:text-3xl lg:text-4xl font-bold text-white"
           >
-            MELODYFEST
+            CICom 2024
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -134,7 +134,7 @@ const Navbar = () => {
               to={"/login"}
               className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border-white text-white min-h-0 h-8 md:h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white"
             >
-              Login
+              Submit Paper
             </Link>
           )}
         </div>
