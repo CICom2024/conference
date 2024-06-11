@@ -44,7 +44,7 @@ const Banner = () => {
                   className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold"
                   data-aos="fade-down"
                 >
-                  Experience the Rhythm of MelodyFest
+                  Hello Bikram
                 </h1>
                 <p
                   className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5"
