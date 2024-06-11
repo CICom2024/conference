@@ -52,7 +52,7 @@ const Banner = () => {
                 >
                   December 26-27, 2024 @ Paris, France
                 </p>
-                <a href="../logos/Call.pdf" target="_blank" rel="noopener noreferrer" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-9 lg:h-10 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
+                <a href="https://github.com/CICom2024/conference/tree/main/logos/Call.pdf" target="_blank" rel="noopener noreferrer" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-9 lg:h-10 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
   Call for Papers
 </a>
               </div>

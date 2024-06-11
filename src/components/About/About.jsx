@@ -35,7 +35,7 @@ const About = () => {
 
           Computational intelligence is a computer science field by which a computer can learn a specific task from data or experimental observation. It addresses complex real-world problems in which mathematical or traditional modelling are not the preferred solution given that (i) the involved computational process might be too complex for mathematical reasoning; (ii) it might contain some uncertainties during the process, or (iii) by nature, the computational process is a randomly determined one (heuristic). The International Conference on Computational Intelligence and Communications (CICom 2024) explores solutions to various problems of this nature.
         </p>
-        <a href="../logos/Call.pdf" target="_blank" rel="noopener noreferrer" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-9 lg:h-10 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
+        <a href="https://github.com/CICom2024/conference/tree/main/logos/Call.pdf" target="_blank" rel="noopener noreferrer" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-9 lg:h-10 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
   Call for Papers
 </a>
       </div>
