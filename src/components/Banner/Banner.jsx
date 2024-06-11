@@ -18,10 +18,10 @@ const Banner = () => {
       <Navbar />
       <Swiper
         centeredSlides={true}
-        speed={1500}
+        speed={500}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -44,21 +44,17 @@ const Banner = () => {
                   className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold"
                   data-aos="fade-down"
                 >
-                  Hello Bikram
+                  4th International Conference on Computational Intelligence and Communications
                 </h1>
                 <p
-                  className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5"
+                  className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[120rem] lg:w-[35rem] mb-5"
                   data-aos="fade-up"
                 >
-                  Dive into a world of musical wonders, where every beat tells a
-                  story and every note ignites your soul.
+                  December 26-27, 2024 @ Paris, France
                 </p>
-                <button
-                  className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl"
-                  data-aos="fade-up"
-                >
-                  Explore Events
-                </button>
+                <a href="../logos/Call.pdf" target="_blank" rel="noopener noreferrer" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-9 lg:h-10 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
+  Call for Papers
+</a>
               </div>
             </div>
           </div>
@@ -74,14 +70,42 @@ const Banner = () => {
             <div className="hero-content text-center text-neutral-content">
               <div className="flex flex-col justify-center items-center text-white">
                 <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
-                  Where Dreams Harmonize MelodyFest Unleashed
+                  CICom 2024
                 </h1>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  Join us in creating harmonious celebrations, where music,
-                  passion, and joy blend seamlessly into unforgettable moments.
+                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[50rem] lg:w-[45rem] mb-5">
+                <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 border-b-2 border-b-blue-500 " data-aos="fade-up">
+        Important Dates
+      </h1>
+
+      <ul className="font-bold max-w-md space-y-1 text-white list-inside dark:text-white">
+      <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Paper submission : 1st September, 2024
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Notification deadline : 15th October, 2024
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Camera-ready deadline : 15th November, 2024
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Conference dates : 26-27th December, 2024
+        </li>
+      </ul>
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Discover Now
+                  Submit Paper
                 </button>
               </div>
             </div>
@@ -98,15 +122,13 @@ const Banner = () => {
             <div className="hero-content text-center text-neutral-content">
               <div className="flex flex-col justify-center items-center text-white">
                 <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
-                  Your VIP Ticket to Melodic Bliss
+                26-27th December, 2024
                 </h1>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  Indulge in VIP experiences designed for music enthusiasts,
-                  offering exclusive access and cherished encounters with your
-                  favorite artists.
+                  @ Paris, France
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Get VIP Pass
+                  Register
                 </button>
               </div>
             </div>
@@ -123,65 +145,19 @@ const Banner = () => {
             <div className="hero-content text-center text-neutral-content">
               <div className="flex flex-col justify-center items-center text-white">
                 <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
-                  Crafting memories One Note at a Time
+                  Organised by
                 </h1>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  PImmerse in our world of energetic performances, fan
-                  engagement, and seamless ticketing, ensuring your event
-                  experience is flawless.
+                  LISV Laboratory, Université Paris-Saclay
                 </p>
-                <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Book Tickets
-                </button>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="hero min-h-screen"
-            style={{
-              backgroundImage: `url(${bannerFive})`,
-            }}
-          >
-            <div className="hero-overlay bg-black bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-              <div className="flex flex-col justify-center items-center text-white">
-                <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
-                  Feel the pulse MelodyFest&#39;s Ultimate Musical Soiree
-                </h1>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  Explore a universe of live concerts, immersive experiences,
-                  and top-notch sound and lighting equipment, promising an
-                  electrifying ambiance.
+                  LYRIDS Laboratory, École d'Ingénieurs (ECE) Paris
                 </p>
-                <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Secure Your Spot
-                </button>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            className="hero min-h-screen"
-            style={{
-              backgroundImage: `url(${bannerSix})`,
-            }}
-          >
-            <div className="hero-overlay bg-black bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-              <div className="flex flex-col justify-center items-center text-white">
-                <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
-                  Unlock MelodyFest magic Your Musical Playground Awaits
-                </h1>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  Discover an array of vibrant stages, artist meet-and-greets,
-                  and expert event planning, guaranteeing your entry into a
-                  realm of music fantasies.
+                  LISN Laboratory, M'Hamed BOUGARA University of Boumerdès
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Plan Your Visit
+                  Register
                 </button>
               </div>
             </div>
