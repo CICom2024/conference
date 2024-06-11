@@ -11,11 +11,10 @@ const Home = () => {
     <>
       <Helmet>
         <link rel="shortcut icon" href="/icon/home.svg" type="image/x-icon" />
-        <title>MelodyFest - Your Gateway to Musical Experiences</title>
+        <title>CICom 2024</title>
       </Helmet>
       <Banner />
       <About />
-      <Services />
       <Testimonial />
       <FaqSection />
       <Footer />
