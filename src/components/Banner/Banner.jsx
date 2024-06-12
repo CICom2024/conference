@@ -166,7 +166,8 @@ const Banner = () => {
           Computational Intelligence on Human/Brain-Computer Interfaces, and Image and Pattern Recognition
         </li>
       </ul>
-    
+    </div>
+ 
 
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
                   Registration Opens Soon
