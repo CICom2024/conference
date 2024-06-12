@@ -51,16 +51,16 @@ const About = () => {
       </h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 place-items-center lg:place-items-start gap-10">
+      <div className="w-full h-fit lg:h-[20rem] bg-grey bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+          <a href="https://www.ece.fr/lecole-2/le-centre-de-recherche/" target="_blank" className="bg-white rounded h-full text-grey-darkest no-underline shadow-md">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up"></h1>
+            <img className="w-full block rounded-b" src={logoTwo} alt="Logo Two" />
+          </a>
+        </div>
         <div className="w-full h-fit lg:h-[20rem] bg-grey bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
           <a href="https://www.lisv.uvsq.fr/" target="_blank" className="bg-white rounded h-full text-grey-darkest no-underline shadow-md">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up"></h1>
             <img className="w-full block rounded-b" src={logoOne} alt="Logo One" />
-          </a>
-        </div>
-        <div className="w-full h-fit lg:h-[20rem] bg-grey bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
-          <a href="https://www.ece.fr/lecole-2/le-centre-de-recherche/" target="_blank" className="bg-white rounded h-full text-grey-darkest no-underline shadow-md">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up"></h1>
-            <img className="w-full block rounded-b" src={logoTwo} alt="Logo Two" />
           </a>
         </div>
         <div className="w-full h-fit lg:h-[20rem] bg-grey bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
