@@ -136,8 +136,37 @@ const Banner = () => {
                 <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
                 26-27th December, 2024
                 </h1>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  @ Paris, France
+                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[50rem] lg:w-[45rem] mb-5">
+                <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 border-b-2 border-b-blue-500 " data-aos="fade-up">
+        Tracks
+      </h1>
+
+      <ul className="font-bold max-w-md space-y-1 text-white list-inside dark:text-white">
+      <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Computational Intelligence in Automation, Control, and Intelligent Transportation System
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Computational Intelligence on Big Data, Internet of Things, and Smart Cities
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Computational Intelligence on Wireless Communication Systems and Cyber Security
+        </li>
+        <li className="flex items-center">
+          <svg className="w-3.5 h-3.5 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+          </svg>
+          Computational Intelligence on Human/Brain-Computer Interfaces, and Image and Pattern Recognition
+        </li>
+      </ul>
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
                   Registration Opens Soon
@@ -160,10 +189,10 @@ const Banner = () => {
                   Organised by
                 </h1>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  LISV Laboratory, Université Paris-Saclay
+                  LYRIDS Laboratory, ECE École d'Ingénieurs, Paris
                 </p>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
-                  LYRIDS Laboratory, École d'Ingénieurs (ECE) Paris
+                  LISV Laboratory, Université Paris-Saclay
                 </p>
                 <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
                   LISN Laboratory, M'Hamed BOUGARA University of Boumerdès
