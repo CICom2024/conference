@@ -27,7 +27,7 @@ const AboutUs = () => {
             Manuscript Preparation
             </p>
             <p>
-            <ol class="text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <ol class="text-white list-decimal list-inside">
               <li>
               Papers should be in English.
               </li>
@@ -41,7 +41,7 @@ const AboutUs = () => {
               The manuscript should be prepared in Springer <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">LNCS</a> format. Any article, not in format, will be subjected to rejection without any judgment on its quality.
               </li>
               <li>
-              The articles should be own work of the authors. If any work is referred from others (or some other work by the author), proper acknowledgement should be given. Plagiarism of any type, if detected, will lead to rejection of the articles anytime.
+              The articles should be an original work of the authors. If any work is referred from others (or some other work by the author), proper acknowledgement and citation should be given. Plagiarism of any type, if detected, will lead to rejection of the articles anytime.
               </li>
               <li>
               When uploading the camera-ready copy of your paper, please be sure to upload both: a) a PDF copy of your paper formatted according to the above templates, and
@@ -60,8 +60,8 @@ const AboutUs = () => {
             <p className="font-bold text-slate-300 border-b-2 border-b-blue-500  md:text-lg mb-5">
             Submitting for Review
             </p>
-            <ol class="text-gray-500 list-decimal list-inside dark:text-gray-400">
-            <li>
+            <ol class="text-white list-decimal list-inside">
+              <li>
               Follow the link{' '}
                   <a
                     href="https://cmt3.research.microsoft.com/"
@@ -72,7 +72,7 @@ const AboutUs = () => {
                     here
                   </a>{' '}
                   and submit your article with properly mentioning article title, authors names and other details that will be asked.
-              </li>
+            </li>
               <li>
               Create / sign up for an CMT account if you do not have one.
               </li>
