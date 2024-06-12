@@ -25,7 +25,7 @@ const VisaInformation = () => {
             <p className="font-bold text-slate-300 md:text-lg mb-5">
               Visa Requirements
             </p>
-            <p className="text-gray-500 dark:text-gray-400">
+            <p className="text-gray-500">
               Foreign nationals wishing to attend the conference must have a valid passport and obtain a visa in advance. 
               Please ensure that you apply for your visa well in advance to avoid any last-minute issues.
             </p>
@@ -34,7 +34,7 @@ const VisaInformation = () => {
             <p className="font-bold text-slate-300 md:text-lg mb-5">
               Important Notes
             </p>
-            <ol className="text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <ol className="text-gray-500 list-decimal list-inside">
               <li>Please apply for your visa well in advance to avoid any delays.</li>
               <li>Ensure all information provided is accurate and complete to avoid rejection of your visa application.</li>
               <li>Keep a copy of all documents submitted for your records.</li>
@@ -48,7 +48,7 @@ const VisaInformation = () => {
             <p className="font-bold text-slate-300 md:text-lg mb-5">
               Visa Application Process
             </p>
-            <ol className="text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <ol className="text-gray-500 list-decimal list-inside">
               <li>Complete the visa application form available on your local embassy or consulate's website.</li>
               <li>Attach a recent passport-sized photograph.</li>
               <li>Submit a copy of your passport (must be valid for at least six months from your planned date of entry).</li>
@@ -61,7 +61,7 @@ const VisaInformation = () => {
             <p className="font-bold text-slate-300 md:text-lg mb-5">
               Documents Required
             </p>
-            <ol className="text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <ol className="text-gray-500 list-decimal list-inside dark">
               <li>Completed visa application form.</li>
               <li>Passport-sized photograph (as per specifications).</li>
               <li>Copy of your passport (valid for at least six months beyond your date of entry).</li>
