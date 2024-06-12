@@ -85,11 +85,10 @@ const Navbar = () => {
               {NavLinks}
             </ul>
           </div>
-          <Link
-            to={"/"}
-            className="text-2xl md:text-3xl lg:text-4xl font-bold text-white"
-          >
-            CICom 2024
+          <Link to="/" className="flex items-center">
+            <img src="/logo.png" alt="CICom 2024 Logo" className="h-10 md:h-12 lg:h-16 mr-2" />
+            <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            </span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
