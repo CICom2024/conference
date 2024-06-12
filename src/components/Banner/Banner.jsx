@@ -110,9 +110,15 @@ const Banner = () => {
         </li>
       </ul>
                 </p>
-                <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Submit Paper
-                </button>
+                <a
+                    href="https://cmt3.research.microsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl"
+                    data-aos="fade-up"
+                  >
+                    Submit Paper
+                </a>
               </div>
             </div>
           </div>
@@ -134,7 +140,7 @@ const Banner = () => {
                   @ Paris, France
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Register
+                  Registration Opens Soon
                 </button>
               </div>
             </div>
@@ -163,7 +169,7 @@ const Banner = () => {
                   LISN Laboratory, M'Hamed BOUGARA University of Boumerdès
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
-                  Register
+                  Registration Opens Soon
                 </button>
               </div>
             </div>

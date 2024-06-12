@@ -39,65 +39,65 @@ const ServicesPage = () => {
           <li>Yassine Meraihi, Université de Boumerdes, Algeria</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Web Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Ravi Tomar, University of Petroleum and Energy Studies, India</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Publicity and Social Media Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Naila Bouchemal, ECE Paris School of Engineering, France</li>
           <li>Naresh Kumar, Quantum University, India</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Workshop Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Yassine Meraihi, Université de Boumerdés, Algeria</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Sponsorship & Exhibition Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Hongyu Guan, University of Versailles – Paris Saclay, France</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Publication Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Rafik Zitouni, University of Surrey, UK</li>
           <li>Aditi Sharma, Parul University, India</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Panels Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Piotr Kuwalek, Poznan University of Technology, Poland</li>
           <li>Abderrahmane Maaradji, ECE Paris Engineering School, France</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Tutorials Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Jaouhar Fattahi, Université Laval, Canada</li>
           <li>Moeiz Miraoui, Umm Al-Qura University, Saudi Arabia</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Demos Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Sebastien Dourlens, University of Versailles – Paris Saclay, France</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Poster and PhD Track Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Samir Brahim Belhaouari, Hamad Bin Khalifa University, Qatar</li>
         </ul>
       </div>
-      <div className="w-full h-fit lg:h-[20rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[12rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Local Chairs</h1>
         <ul className="text-justify font-bold text-grey text-opacity md:text-lg w-80 md:w-full mb-5">
           <li>Amar Ramdane-Cherif, University of Versailles – Paris Saclay, France</li>

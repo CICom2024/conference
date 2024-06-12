@@ -61,8 +61,17 @@ const AboutUs = () => {
             Submitting for Review
             </p>
             <ol class="text-gray-500 list-decimal list-inside dark:text-gray-400">
-              <li>
-              Follow the link <a href="" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">here</a> and submit your article with properly mentioning article title, authors names and other details that will be asked.
+            <li>
+              Follow the link{' '}
+                  <a
+                    href="https://cmt3.research.microsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  >
+                    here
+                  </a>{' '}
+                  and submit your article with properly mentioning article title, authors names and other details that will be asked.
               </li>
               <li>
               Create / sign up for an CMT account if you do not have one.

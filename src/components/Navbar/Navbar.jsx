@@ -130,12 +130,14 @@ const Navbar = () => {
               </ul>
             </div>
           ) : (
-            <Link
-              to={"/login"}
-              className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border-white text-white min-h-0 h-8 md:h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white"
-            >
-              Submit Paper
-            </Link>
+            <a
+            href="https://cmt3.research.microsoft.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border-white text-white min-h-0 h-8 md:h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white"
+          >
+            Submit Paper
+          </a>
           )}
         </div>
       </div>
