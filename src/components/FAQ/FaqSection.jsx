@@ -37,7 +37,7 @@ const FaqSection = () => {
       </div>
 
       {activeTab === 'location' ? (
-        <div className="w-full h-[400px] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+        <div className="w-full h-full bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
           <MapContainer center={center} zoom={15} style={{ height: '400px', width: '100%' }}>
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
