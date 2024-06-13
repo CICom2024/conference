@@ -57,6 +57,7 @@ const ServicesPage = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Workshop Chairs</h1>
         <ul className="text-justify font-bold text-white md:text-lg w-80 md:w-full mb-5">
           <li>Yassine Meraihi, Université de Boumerdés, Algeria</li>
+          <li>Guilherme Medeiros Machado, ECE Ecole d’Ingénieurs, Paris</li>
         </ul>
       </div>
       <div className="w-full h-fit lg:h-[10rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
@@ -76,6 +77,7 @@ const ServicesPage = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Panels Chairs</h1>
         <ul className="text-justify font-bold text-white md:text-lg w-80 md:w-full mb-5">
           <li>Piotr Kuwalek, Poznan University of Technology, Poland</li>
+          <li>Aakash Soni, ECE Ecole d’Ingénieurs, Paris</li>
         </ul>
       </div>
       <div className="w-full h-fit lg:h-[10rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
@@ -135,6 +137,7 @@ const ServicesPage = () => {
           <li>Rolou Lyn Maata, Gulf College, Oman</li>
           <li>Samir Brahim Belhaouari, Hamad Bin Khalifa University, Qatar</li>
           <li>Rafik Zitouni, University of Surrey, UK</li>
+          <li>Guilherme Medeiros Machado, ECE Ecole d’Ingénieurs, Paris</li>
         </ul>
       </div>
     </div>
