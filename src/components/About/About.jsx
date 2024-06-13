@@ -260,7 +260,7 @@ const About = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">
             Author Guidelines
           </h1>
-          <p className="text-lg md:text-xl lg:text-2xl font-semibold text-white text-opacity-50" data-aos="fade-up">
+          <p className="text-lg md:text-xl lg:text-2xl font-semibold text-white" data-aos="fade-up">
             Prospective authors are invited to submit manuscript reporting original unpublished research and recent developments in the topics related to the conference. It is required that the manuscript follows the standard Springer camera-ready format. 
             <Link to="/about" className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-blue-500 text-white min-h-0 h-10 lg:h-12 hover:bg-blue-500 hover:text-white hover:border-blue-500 normal-case font-bold text-xl" data-aos="fade-up">
               Read More
