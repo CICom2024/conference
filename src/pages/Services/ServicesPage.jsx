@@ -114,7 +114,7 @@ const ServicesPage = () => {
 
   const renderTechnicalProgramCommittee = () => (
     <div className="grid grid-cols-1 lg:grid-cols-1 place-items-center lg:place-items-start gap-10">
-      <div className="w-full h-fit lg:h-[40rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
+      <div className="w-full h-fit lg:h-[42rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">TECHNICAL PROGRAM COMMITTEE</h1>
         <ul className="text-justify font-bold text-white md:text-lg w-80 md:w-full mb-5">
           <li>Manolo Dulva Hina, ECE Paris School of Engineering, France</li>
