@@ -50,7 +50,7 @@ const ServicesPage = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white" data-aos="fade-up">Publicity and Social Media Chairs</h1>
         <ul className="text-justify font-bold text-white md:text-lg w-80 md:w-full mb-5">
           <li>Naila Bouchemal, ECE Paris School of Engineering, France</li>
-          <li>Bikram Pratim Bhuyan, Université Paris-Saclay, France</li>
+          <li>Amylia Ait Saadi, Université Paris-Saclay, France</li>
         </ul>
       </div>
       <div className="w-full h-fit lg:h-[10rem] bg-black bg-opacity-50 rounded-2xl p-8" data-aos="fade-up">
