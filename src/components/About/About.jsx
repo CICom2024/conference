@@ -234,16 +234,22 @@ const About = () => {
 
       <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 " data-aos="fade-up"></h1>
 
-      <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 border-b-2 border-b-blue-500 " data-aos="fade-up">
+      <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 border-b-2 border-b-blue-500" data-aos="fade-up">
         Publication
       </h1>
       <div className="block lg:flex justify-between items-center my-10" data-aos="fade-up">
         <p className="text-justify font-bold text-white text-opacity md:text-lg w-80 md:w-full mb-5" data-aos="fade-up">
           All registered papers will be submitted for publishing by Springer and made available through SpringerLink Digital Library.
-
+          <br />
+          <br />
           Proceedings will be submitted for inclusion in leading indexing services, such as Web of Science, Compendex, Scopus, DBLP, EU Digital Library, Google Scholar, IO-Port, MathSciNet, Inspec, and Zentralblatt MATH.
+          <br />
+          <br />
           (Additional publication opportunities in leading journals: To be updated soon)
         </p>
+        <a href="https://www.springer.com" target="_blank" rel="noopener noreferrer" className="ml-0 lg:ml-5">
+          <img src="/springer-logo.jpg" alt="Springer" className="w-32 md:w-48 lg:w-64" />
+        </a>
       </div>
 
       <h1 className="font-bold uppercase text-xl md:text-2xl text-blue-500 mb-5 border-b-2 border-b-blue-500 " data-aos="fade-up">
