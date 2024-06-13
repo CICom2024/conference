@@ -181,13 +181,13 @@ const Banner = () => {
                 <h1 className="mb-5 text-3xl  md:text-5xl lg:text-7xl font-bold">
                   Organised by
                 </h1>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
+                <p className="font-bold text-white md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
                   LYRIDS Laboratory, ECE École d'Ingénieurs, Paris
                 </p>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
+                <p className="font-bold text-white md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
                   LISV Laboratory, Université Paris-Saclay
                 </p>
-                <p className="font-bold text-white text-opacity-70  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
+                <p className="font-bold text-white  md:text-lg  w-80 md:w-[30rem] lg:w-[35rem] mb-5">
                   LISN Laboratory, M'Hamed BOUGARA University of Boumerdès
                 </p>
                 <button className="btn rounded-3xl px-5 md:px-8 lg:px-10 bg-transparent border border-white text-white min-h-0 h-10 lg:h-12 hover:bg-white hover:text-black hover:border-white normal-case font-bold text-xl">
